@@ -2,7 +2,7 @@
 def prime?(number)
   return false if number < 2
   counter = number - 1
-  for i in counter..1
+  for i in counter..2
     return false if number % i == 0
   end
   return true

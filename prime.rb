@@ -1,4 +1,4 @@
 # Add  code here!
 def prime?(number)
-  if number % 
+  return false if number < 2
 end

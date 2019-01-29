@@ -5,6 +5,5 @@ def prime?(number)
   while counter > 1
     return false if number % i == 0
     counter--
-  end
   return true
 end
